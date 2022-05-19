@@ -1,0 +1,32 @@
+{
+  "name": "misblocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"build:box": "wp-scripts build ./box/src/index.js --output-path=./box/build",
+		"build:news": "wp-scripts build ./news/src/index.js --output-path=./news/build",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:md:js": "wp-scripts lint-md-js",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"start:box":  "wp-scripts start ./box/src/index.js --output-path=./box/build",
+		"start:news": "wp-scripts start ./news/src/index.js --output-path=./news/build",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js"
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^22.4.0"
+  }
+}

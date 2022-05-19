@@ -1,0 +1,12 @@
+{	
+  "apiVersion": 2,
+  "name": "mblock/news",
+  "title": "News",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Show news.",
+  "keywords": ["posts", "news", "ctom"],
+  "version": "0.0.1",
+  "textdomain": "ctom",
+  "editorScript": "file:./build/index.js"
+}

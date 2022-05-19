@@ -1,0 +1,45 @@
+
+
+
+.wp-block-mblock-box{
+
+	.list-icon__content{
+		display: grid;
+		grid-template-columns: 15% 84% ;
+		grid-column-gap: 1%;
+	}
+
+	
+	.list-icon__content{
+		
+		.list-icon__icon-imagen {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+		
+		h4{
+			margin: 0;
+		}
+		
+	}
+
+	//Colors
+	&.is-style-light{
+		background-color: white;
+
+		.list-icon__title-description{
+			color: black;
+		}
+
+	}
+
+	&.is-style-dark{
+		background-color: black;
+
+		.list-icon__title-description{
+			color: white;
+		}
+	}
+	
+}
